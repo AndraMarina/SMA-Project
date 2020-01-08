@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FoodShare</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="emailpassword_status_fmt">Signed in</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Failed</string>
+    <string name="make_req">Make a Request</string>
+    <string name="sub_req">Submit Request</string>
+    <string name="sign_out">Sign out</string>
+    <string name="view_req">View Requests</string>
+    <string name="sign_in">Sign in</string>
+    <string name="food_share">FoodShare</string>
+    <string name="meal_type">Meal Type: $1s</string>
+    <string name="port_no">Portion No: $1s</string>
+
+</resources>

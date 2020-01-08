@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transition.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context="gradients.xyz.gradients.MainActivity">
+
+        <Button
+            android:id="@+id/ShelterButton"
+            android:layout_width="220dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="95dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="cursive"
+            android:textSize="35sp"
+            android:text="Shelter"
+            android:textColor="#AF601A"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/RestaurantButton"
+            android:layout_width="220dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="-222dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="cursive"
+            android:textSize="35sp"
+            android:textColor="#AF601A"
+            android:textAllCaps="false"
+            android:text="Restaurant" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
